@@ -1,6 +1,6 @@
 
 
-
+/*
 //rôle: calculer la moyenne
 //parametres: 4 notes pour 1 moyenne
 //return: resultat
@@ -109,4 +109,88 @@ verifierEmail("antonin.com")
 //parametre: somme des deux valeurs
 //return: resultat
 
-function 
+function addition(a,b){
+    return a+b
+}
+
+let resultat6 = addition(10,22)
+
+console.log(`le resultat est ${resultat6}`)
+
+
+//role: poser une question 
+//parametre: la question
+//return: la réponse
+
+function poserQuestion(question){
+    return prompt(question)
+}
+
+let reponse = poserQuestion("Est ce que ça va ?")
+
+console.log(reponse)
+
+//role: convertir de euros a dollars
+//parametre: le prix et le taux
+//return: le prix convertis
+
+function convertion(prix,taux){
+    return prix*taux;
+
+}
+
+let resultat = convertion(300, 1.17)
+
+console.log(resultat)
+
+//role: demander un prix et un taux de change et convertit
+//parametre:
+//return: prix convertit
+
+function convertisseur(){
+
+    //demande le prix
+   let prix1 = parseFloat(prompt(`Qu'elle est le prix ?`))
+
+
+    //demande le taux
+    let taux1 = parseFloat(prompt(`Qu'elle est le taux ?`))
+
+    //convertit
+    return prix1*taux1
+
+    //return le resultat
+    
+}
+
+let prixConvertit = convertisseur()
+
+alert(`Le prix convertit est de ${prixConvertit}`)
+
+
+
+//role: calculer une moyenne et demande les note de FR, GEO, MATH, HIST
+//parametre: rien
+//return: moyenne general
+
+function calculMoyenne(){
+
+    //note FR convertit en number
+    let noteFR = parseFloat(prompt(`Qu'elle est la note de Français ?`))
+
+    //note GEO convertit en number
+    let noteGEO = parseFloat(prompt(`Qu'elle est la note en Géographie ?`))
+
+    //note MATH convertit en number
+    let noteMATH = parseFloat(prompt(`Qu'elle est la note en Mathématiques ?`))
+
+    //note HIST convertit en number
+    let noteHIST = parseFloat(prompt(`Qu'elle est la note en Histoire ?`))
+
+    //calculer la moyenne et la return 
+    return (noteFR+noteGEO+noteMATH+noteHIST)/4
+}
+
+let moyenneGeneral = calculMoyenne()
+
+alert(`La moyenne général est de ${moyenneGeneral}`)
