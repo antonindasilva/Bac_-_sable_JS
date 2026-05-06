@@ -119,7 +119,7 @@ let ticket = reduction(19,false, 180)
 
 console.log(ticket)
 
-*/
+
 
 //role: demander à l'utilisateur la couleur du feu tricolore
 //parametre: rien
@@ -143,3 +143,59 @@ function feuTricolore(){
 
 let message = feuTricolore()
 
+*/
+
+
+//EXO 2
+
+//role: Calculer la moyenne
+//parametre: les notes
+//return: La moyenne
+
+function calculMoyenne3(a,b,c,d){
+    return (a+b+c+d)/4;
+}
+
+
+
+
+
+//role: genere un commentaire
+//parametre: la moyenne general
+//return: rien
+
+function Commentaire(m){
+    if(m<10){
+        return(`Il faut travailler !`)
+    }else if(m>10 && m<=13){
+        return(`Poursuivez vos efforts !`)
+    }else if(m>13 && m<=15){
+        return(`Bon travail !`)
+    }else if(m>15 && m<=17){
+        return(`Bravo !`)
+    }else{
+        return(`Félicitations`)
+    }
+}
+
+
+
+
+//role: afficher un bulletin
+//parametre: moyenne général + commentaire
+//return: rien elle affiche
+
+function construireBulletin(moyenneGeneral3,Commentaire){
+    alert (`La moyenne général de l'élève est ${moyenneGeneral3} ${Commentaire}`)
+}
+
+
+//scénario
+
+function scenario(a,b,c,d){
+let moyenneGeneral3 = calculMoyenne3(a,b,c,d)
+let commentaire=Commentaire(moyenneGeneral3)
+construireBulletin(moyenneGeneral3,commentaire)
+}
+
+scenario(12,10,10,10)

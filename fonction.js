@@ -194,3 +194,4 @@ function calculMoyenne(){
 let moyenneGeneral = calculMoyenne()
 
 alert(`La moyenne général est de ${moyenneGeneral}`)
+*/
