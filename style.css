@@ -5,3 +5,23 @@
 .w-45{
     width: 45%;
 }
+
+.flex{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-bleu{
+    background-color: aqua;
+    border-radius: 16px;
+    
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
