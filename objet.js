@@ -1,5 +1,5 @@
 
-
+/*
 //EXO OBJ
 
 let promo11 = [
@@ -172,3 +172,4 @@ function listeRecettes(tableauRecettes) {
         document.querySelector("body").innerHTML += trucAEcrire
     }
 }
+    */
