@@ -13,7 +13,7 @@
 }
 
 .bg-bleu{
-    background-color: aqua;
+    background-color: rgb(225, 177, 19);
     border-radius: 16px;
     
 }
@@ -24,4 +24,8 @@
 
 .text-center{
     text-align: center;
+}
+
+.pl-16{
+    padding-left: 16px;
 }
