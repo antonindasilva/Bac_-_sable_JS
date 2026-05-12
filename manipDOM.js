@@ -102,7 +102,7 @@ let nombre=0
 //Je recup le header
 let header = document.querySelector("header")
 //Je recup le hero
-let hero = document.querySelector(".hero")
+let hero = document.querySelector(".bg-hero")
 // j'ecoute le scroll:
 window.addEventListener("scroll",function(){
     
