@@ -51,7 +51,7 @@ function cacherAfficher(cache){
     const h2cache = document.querySelector("#cache");
     
     h2cache.classList.toggle("none")
-}
+} */
 
 //EXO 3
 
@@ -80,7 +80,7 @@ function cacherAfficher(cache){
     //EXO 4
 
 
-
+/*
 const bouton= document.querySelector("#btn2")
 
 let compteur = document.querySelector("#compteur")
@@ -102,7 +102,7 @@ let nombre=0
 //Je recup le header
 let header = document.querySelector("header")
 //Je recup le hero
-let hero = document.querySelector(".bg-hero")
+let hero = document.querySelector(".hero")
 // j'ecoute le scroll:
 window.addEventListener("scroll",function(){
     
