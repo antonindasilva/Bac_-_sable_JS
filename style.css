@@ -5,8 +5,10 @@
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 
+/*
 
 .red{
     color:red;
@@ -88,4 +90,59 @@ header{
 header a{
     color: aliceblue;
     text-decoration: none;
+}
+*/
+
+/* profil Utilisateur*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.large-30{
+    width: 30%;
+}
+
+.large-60{
+    width: 60%;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.card{
+    background-color: grey;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 12px;
+    font-family: "Rubik Mono One", monospace;
+}
+
+.gap-12{
+    gap: 12px;
+}
+
+.gap-32{
+    gap: 32px;
+}
+
+.border-radius-15{
+    border-radius: 15px;
+}
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
